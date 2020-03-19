@@ -1,0 +1,13 @@
+import os
+
+NUM_SERVERS = 25
+USER_DATA_PATH = "UserData"
+PICKLE_DIRECTORY = "Pickle"
+SERVER_FILE = "servers.pickle"
+SERVER_FILE_PATH = os.path.join(PICKLE_DIRECTORY, SERVER_FILE)
+
+MSRC_SECRET_KEY = "msrcSecretKey"
+MSRC_SERVER_FILE = "msrc_servers.pickle"
+MSRC_USER_FILE = "msrc_users.pickle"
+MSRC_SERVER_FILE_PATH = os.path.join(PICKLE_DIRECTORY, MSRC_SERVER_FILE)
+MSRC_USER_FILE_PATH = os.path.join(PICKLE_DIRECTORY, MSRC_USER_FILE)
